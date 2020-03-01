@@ -1,88 +1,99 @@
 /* globals Docute */
 
 new Docute({
-
-  target: '#docute',
-  sourcePath: './docs/',
+  target: "#docute",
+  sourcePath: "./docs/",
 
   //顶部导航栏
   nav: [
     {
-      title: '主页',
-      link: '/'
+      title: "主页",
+      link: "/"
     },
     {
-      title: 'GitHub',
-      link: 'https://github.com/shufei021/rookie-book'
+      title: "GitHub",
+      link: "https://github.com/hudungithub/hudun"
     },
     {
-      title: '工具',
+      title: "工具",
       children: [
         {
-          title: '图片转base64',
-          link: 'http://moxiaofei.com/rookie-book/tool/imgtobase64/index.html'
+          title: "图片转base64",
+          link: "http://moxiaofei.com/rookie-book/tool/imgtobase64/index.html"
         },
         {
-          title: '图片取色',
-          link: 'http://moxiaofei.com/rookie-book/tool/getcolor/index.html'
+          title: "图片取色",
+          link: "http://moxiaofei.com/rookie-book/tool/getcolor/index.html"
         }
       ]
-    },
+    }
   ],
 
   //侧边栏
   sidebar: [
     {
-      title: 'Vue全家桶',
+      title: "Vue全家桶",
       links: [
         {
-          title: 'Vue',
-          link: '/前端/Vue全家桶/vue/vue',
+          title: "Vue",
+          link: "/前端/Vue全家桶/vue/vue"
         },
         {
-          title: 'Vuex',
-          link: '/前端/Vue全家桶/vuex/vuex',
+          title: "Vuex",
+          link: "/前端/Vue全家桶/vuex/vuex"
         },
         {
-          title: 'Vue-router',
-          link: '/前端/Vue全家桶/vue-router/vue-router'
+          title: "Vue-router",
+          link: "/前端/Vue全家桶/vue-router/vue-router"
         },
         {
-          title: 'Axios',
-          link: '/前端/Vue全家桶/axios/axios'
+          title: "Axios",
+          link: "/前端/Vue全家桶/axios/axios"
         },
         {
-          title: 'Element-ui',
-          link: '/前端/Vue全家桶/elenemnt-ui/elenemnt-ui'
+          title: "Element-ui",
+          link: "/前端/Vue全家桶/elenemnt-ui/elenemnt-ui"
         }
       ]
     },
     {
-      title: '算法',
+      title: "算法",
       links: [
         {
-          title: '数组相关',
-          link: '/algorithm/al-1',
+          title: "数组相关",
+          link: "/algorithm/al-1"
         },
         {
-          title: 'CSS3时钟',
-          link: '/case/clock-case',
+          title: "CSS3时钟",
+          link: "/case/clock-case"
         }
       ]
     },
     {
-      title: '案例',
+      title: "面试",
       links: [
         {
-          title: '仿博客园日历',
-          link: '/case/date-case',
+          title: "安全相关",
+          link: "/面试相关/安全类"
         },
         {
-          title: 'CSS3时钟',
-          link: '/case/clock-case',
+          title: "测试",
+          link: "/面试相关/kkk"
+        }
+      ]
+    },
+    {
+      title: "案例",
+      links: [
+        {
+          title: "仿博客园日历",
+          link: "/case/date-case"
+        },
+        {
+          title: "CSS3时钟",
+          link: "/case/clock-case"
         }
       ]
     }
-  ],
-  
-})
+  ]
+});
