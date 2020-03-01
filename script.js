@@ -79,6 +79,10 @@ new Docute({
         {
           title: "测试",
           link: "/面试相关/kkk"
+        },
+        {
+          title: "测试1",
+          link: "/面试相关/aaa"
         }
       ]
     },
